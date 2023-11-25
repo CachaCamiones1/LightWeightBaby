@@ -88,5 +88,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Carrito diseño\Carrito diseño\Carrito diseño.csproj">
+      <Project>{9f917337-d818-4fbc-8c1c-757201139152}</Project>
+      <Name>Carrito diseño</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

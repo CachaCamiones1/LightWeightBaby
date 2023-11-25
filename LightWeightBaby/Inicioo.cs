@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Carrito_diseño;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +14,7 @@ namespace LightWeightBaby
     public partial class webb : Form
     {
         kzcastorvt ingresarr;
+        
 
         public webb()
         {
@@ -28,6 +30,12 @@ namespace LightWeightBaby
             ingresarr.Show();
             this.Hide();
             
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Carrito_diseño.loginvt fp = new Carrito_diseño.loginvt();
+            fp.ShowDialog();
         }
     }
 }
